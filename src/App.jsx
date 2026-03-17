@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+        <h1 style={{textAlign : 'center' , padding : '20px'}}>Simple Food Shop</h1>
         <Suspense fallback={<h3>Loading...</h3>}>
             <FoodSection foodPromise={foodPromise}></FoodSection>
         </Suspense>
